@@ -17,7 +17,7 @@
     <title>Pegadas</title>
 </head>
 
-<body>
+<body class="container-fluid">
     <!-- Nav da pagina -->
     <nav class="navbar navbar-light  fixed-top p-3 pl-5 pr-5">
         <a class="navbar-brand" href="#">
@@ -28,27 +28,32 @@
 
         <!-- Fim da nav -->
     </nav>
+    <!-- Conteudo: -->
+    <section class="row" id="content">
+      <div class="col-6" id="content_back01">
+          <img src="img/avatars/girl.png" id="avatar1">
 
-    <!-- Login -->
-    <section id="login">
-        <h2>oi</h2>
-        <form class="form-signin mx-auto">
+          <img src="img/objetos/object01.png" id="object1">
+          <img src="img/objetos/object02.png" id="object2">
+          <img src="img/objetos/object03.png" id="object3">
+      </div>
+      <div class="col-6" id="content_back02">
+          <img src="img/avatars/boy.png" id="avatar2">
 
-            <h1 class="h3 mb-3 font-weight-normal">Aluno</h1>
-
-            <div class="form-label-group mb-3">
-                <input type="text" id="inputEmail" class="form-control" placeholder="Usuário" required="" autofocus="">
-            </div>
-
-            <div class="form-label-group mb-5">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
-            </div>
-
-            <button class="btn btn-lg  btn-block p-0" type="submit">Conecte-se</button>
-            <button class="btn btn-lg  btn-block p-0" href="">Primeiro Acesso</button>
-        </form>
-        <a href="#">Esqueci minha senha.</a>
-        <!-- Fim do login -->
+          <img src="img/objetos/object04.png" id="object4">
+          <img src="img/objetos/object05.png" id="object5">
+          <img src="img/objetos/object06.png" id="object6">
+      </div>
+      <div class="row" id="title">
+          <h1>Bem vindo ao nosso portal</h1>
+      </div>
+      <div class="row" id="login">
+          <h1 class="mx-auto">Aluno:</h1>
+          <input  type="text" placeholder="Nome">
+          <input  type="password" placeholder="Senha" required>
+          <button class="btn btn-lg  btn-block p-0" type="submit">Conectar</button>
+          <button class="btn btn-lg  btn-block p-0" type="button">Primeiro acesso</button>
+      </div>
     </section>
 
     <!-- Footer da pagina -->

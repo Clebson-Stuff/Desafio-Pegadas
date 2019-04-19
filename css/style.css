@@ -7,46 +7,123 @@ body {
 
 nav {
     background-color: white;
+    height: 10%;
 }
 
 nav a {
     color: white;
 }
 
-/* Signin */
 
-.form-signin {
-    margin-top: 25vh;
-    width: 25%;
-    border: 3px solid #9ACDCE;
-    border-radius: 30px;
-    padding: 2%;
-    text-align: center;
+
+/*Conteudo*/
+#title{
+    position: absolute;
+    top: 15%;
+    left: 34%;
 }
-
-.form-signin label {
-    float: left;
-}
-
-.form-signin input {
-    border: 1.5px solid #69A3A3;
-}
-
-.form-signin button {
-    background-color: #79B5B5;
-    color: white;
-}
-
 /* Login */
+
 #login {
+    background-image: url(../img/background/LoginRetangulo@144x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    max-width: 23%;
+    max-height: 45%;
+    left: 37.8%;
+    top: 32%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
     text-align: center;
+
 }
-#login form{
-    background: url(../img/background/LoginRetangulo@144x.png);
+#login input {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    background-color: #F2F2F2;
+    color: #298980;
+    height: 11%;
+    margin-top: -10%;
+
 }
-#login a{
+#login h1 {
+    margin-top: -5%;
+    background-color: #69A3A3;
+    width: 100%;
+    height: 100%;
+    max-width: 50%;
+    max-height: 07%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #F2F2F2;
+    font-weight: 0;
+    font-family: sans-serif;
+    font-size: 140%;
+}
+#login button{
     color: white;
+    background-color: #9ACDCE;
+    height: 11%;
 }
+#content {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+#content .col-6 {
+    margin: 0;
+    padding: 0;
+}
+#content a{
+    color: pink;
+}
+
+#content .col-6 #avatar1 {
+    position: absolute;
+    height: 100%;
+    max-height: 40%;
+    max-width: 50%;
+    top: 36%;
+    left: 63%;
+    animation: elemento1 3s linear;
+}
+
+#content .col-6 #avatar2 {
+    position: absolute;
+    height: 100%;
+    max-height: 40%;
+    max-width: 50%;
+    top: 36%;
+    right: 63%;
+    animation: elemento2 3s linear;
+
+}
+#content_back01 {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(../img/background/DetalhesEsquerda%206@144x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 30%;
+
+
+}
+
+#content_back02 {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(../img/background/DetalhesEsquerda%206@144x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70% 30%;
+}
+
 /* Footer */
 
 #footer {
