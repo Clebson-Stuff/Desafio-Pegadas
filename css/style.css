@@ -1,4 +1,4 @@
-body {
+  body {
     font-family: myriad-pro, sans-serif;
     background-color: #9ACDCE;
 }
@@ -64,38 +64,38 @@ nav #logo{
 }
 #icon01{
     top: 20%;
-    left: 30%;
+    left: 50%;
     animation-duration: 3s;
     animation-direction: alternate-reverse;
 }
 #icon02{
     top: 40%;
-    left: 10%;
+    left: 30%;
     animation-duration: 2s;
     animation-duration: alternate;
 }
 #icon03{
     top: 60%;
-    left: 30%;
+    left: 50%;
     animation-duration: 3s;
     animation-direction: alternate-reverse;
 }
 #icon04{
     top: 20%;
-    right: 30%;
+    right: 50%;
     animation-direction: alternate-reverse;
     animation-duration: 2s;
 }
 #icon05{
     top: 40%;
-    right: 10%;
+    right: 30%;
     animation-duration: 4s;
     animation-direction: alternate-reverse;
 
 }
 #icon06{
     top: 60%;
-    right: 30%;
+    right: 50%;
     animation-duration: 3s;
     animation-direction: alternate-reverse;
 }
@@ -137,22 +137,24 @@ nav #logo{
     background-color: #9ACDCE;
     height: 11%;
     margin-top: -10%;
-
-
 }
+#login button:hover{
+    background-color:
+}
+
 #firstAcess{
       margin-top: -25%;
 }
+
 #login #fora{
   position: absolute;
   top: 95%;
   left: -0%;
-  color: #F2F2F2;
+  color: white;
   font-family: sans-serif;
   font-size: 110%;
   border: none;
   border-radius: 0;
-  animation: blink-2 3s linear infinite;
 }
 #login #fora:active{
   border: none;
@@ -180,7 +182,7 @@ nav #logo{
     top: 36%;
     left: 63%;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+
 }
 
 #content .col-6 #avatar2 {
@@ -191,8 +193,6 @@ nav #logo{
     top: 36%;
     right: 63%;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
-
 
 }
 #content_back01 {
