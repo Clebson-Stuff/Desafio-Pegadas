@@ -1,1 +1,1 @@
-<h1>Projeto Pegadas</h1>
+<h1 style="textAlign: center">Projeto Pegadas</h1>
